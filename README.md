@@ -7,6 +7,10 @@ In this activity, you'll be creating an Amazon-like storefront with the MySQL sk
 https://drive.google.com/file/d/1QWFmu8wXraNwmaMOQ9wlrvpCiySV-ZsK/view
 
 
+## Check out my portfolio!
+ https://dominguez9421.github.io/improved-portfolio/
+
+
 
 ###Challenge #1: Customer View (Minimum Requirement)
 
