@@ -3,11 +3,12 @@ In this activity, you'll be creating an Amazon-like storefront with the MySQL sk
 
 
 // Direct link where you can see me interact with my Bamazon 
+// jump to minutes 1:57 to see demostration of my terminal. 
 https://drive.google.com/file/d/1QWFmu8wXraNwmaMOQ9wlrvpCiySV-ZsK/view
 
-//     
 
-Challenge #1: Customer View (Minimum Requirement)
+
+###Challenge #1: Customer View (Minimum Requirement)
 
 
 Create a MySQL Database called bamazon.
