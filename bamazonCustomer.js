@@ -23,18 +23,33 @@ connection.connect(function (err) {
 
 });
 
+
+//function which prompts the user for what action they should take
 var makeTable = function () {
     connection.query("SELECT * FROM products", function (err, res) {
-       // if (err) throw err;
+        if (err) throw err;
         // this for loop will display the table of items 
         for (var i = 0; i < res.length; i++) {
-            console.log(res[i].item_id + " || " + res[i].product_name + "  ||  " + res[i].department_name + "  ||  " + res[i].price + "   ||  " + res[i].stock_quantity + "\n");
+            console.log(`Id: ${res[i].item_id} Product: ${res[i].product_name} Deparment: ${res[i].department_name} Price: ${res[i].price} Stock Quantity: ${res[i].stock_quantity}`)
         }
-        // promptCustomer(res);
-        promptCustomer(res);
+        console.log('\n');
 
-    });
-};
+        promptCustomer(res);
+    })
+}
+
+// var makeTable = function () {
+//     connection.query("SELECT * FROM products", function (err, res) {
+//        // if (err) throw err;
+//         // this for loop will display the table of items 
+//         for (var i = 0; i < res.length; i++) {
+//             console.log(res[i].item_id + " || " + res[i].product_name + "  ||  " + res[i].department_name + "  ||  " + res[i].price + "   ||  " + res[i].stock_quantity + "\n");
+//         }
+//         // promptCustomer(res);
+//         promptCustomer(res);
+
+//     });
+// };
 
 
 var promptCustomer = function (res) {
